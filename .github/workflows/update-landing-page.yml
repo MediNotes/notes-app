@@ -1,0 +1,20 @@
+name: Update saber-landing page
+
+on:
+  # Enable manual run
+  workflow_dispatch:
+  push:
+    tags:
+      - '**'
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.SABER_LANDING_TOKEN }}
+          repository: saber-notes/saber-landing
+          event-type: saber-release
