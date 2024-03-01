@@ -203,7 +203,7 @@ update:
   updateAvailable: Aggiornamento disponibile
   updateAvailableDescription: "È disponibile una nuova versione dell'app, con queste modifiche:"
   update: Aggiornamento
-  downloadNotAvailableYet(OUTDATED): Il download non è ancora disponibile per la tua piattaforma. Ricontrolla a breve.
+  downloadNotAvailableYet: Il download non è ancora disponibile per la tua piattaforma. Ti invitiamo a controllare nuovamente a breve.
 editor:
   toolbar:
     toggleColors: Attiva/disattiva i colori (Ctrl C)
@@ -226,7 +226,6 @@ editor:
     laserPointer: Puntatore laser
   penOptions:
     size: Dimesione
-    sizeDragHint: Trascina a sinistra o a destra per modificare le dimensioni
   colors:
     colorPicker: Selettore di colori
     customBrightnessHue: Personalizzato $b $h
