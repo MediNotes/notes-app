@@ -229,24 +229,37 @@ flutter:
 
 
 # dart run icons_launcher:create
+# icons_launcher:
+#   image_path: "assets/icon/icon.png"
+#   platforms:
+#     android:
+#       enable: true
+#       adaptive_background_color: "#ffc800"
+#       adaptive_foreground_image: "assets/icon/icon_maskable.png"
+#       adaptive_monochrome_image: "assets/icon/icon_monochrome.png"
+#     ios:
+#       enable: true
+#       image_path: "assets/icon/icon_opaque.png"
+#     linux:
+#       enable: true
+#     windows:
+#       enable: true
+#     macos:
+#       enable: true
+#       image_path: "assets/icon/icon_macos.png"
+
 icons_launcher:
   image_path: "assets/icon/icon.png"
   platforms:
     android:
       enable: true
-      adaptive_background_color: "#ffc800"
-      adaptive_foreground_image: "assets/icon/icon_maskable.png"
-      adaptive_monochrome_image: "assets/icon/icon_monochrome.png"
+      image_path: 'assets/icon/icon.png'
+      adaptive_background_color: '#ffffff'
+      # adaptive_background_image: 'assets/ic_background.png'
+      adaptive_foreground_image: 'assets/icon/icon_foreground.png'
     ios:
       enable: true
-      image_path: "assets/icon/icon_opaque.png"
-    linux:
-      enable: true
-    windows:
-      enable: true
-    macos:
-      enable: true
-      image_path: "assets/icon/icon_macos.png"
+      image_path: "assets/icon/icon.png"
 
 auto_screenshot:
   bundle_id:
