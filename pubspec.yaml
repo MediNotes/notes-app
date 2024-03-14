@@ -263,8 +263,8 @@ icons_launcher:
 
 auto_screenshot:
   bundle_id:
-    android: com.adilhanney.saber
-    ios: com.adilhanney.saber
+    android: com.ciphermd.notes
+    ios: com.ciphermd.notes
   devices:
     - iPhone 8 Plus
     - iPhone 14 Plus

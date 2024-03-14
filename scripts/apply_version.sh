@@ -139,7 +139,7 @@ else
   echo "• $DUMMY_CHANGELOG" > "$CHANGELOG_FILE"
 fi
 
-FLATPAK_FILE="flatpak/com.adilhanney.saber.metainfo.xml"
+FLATPAK_FILE="flatpak/com.ciphermd.notes.metainfo.xml"
 if grep -q "$BUILD_NAME" "$FLATPAK_FILE"; then
   echo " - <release> tag already exists in $FLATPAK_FILE"
 else
@@ -171,5 +171,5 @@ if [ "$EDITOR" != "" ]; then
   echo
   echo "Opening the changelog files in $EDITOR..."
   "$EDITOR" "$CHANGELOG_FILE"
-  "$EDITOR" flatpak/com.adilhanney.saber.metainfo.xml
+  "$EDITOR" flatpak/com.ciphermd.notes.metainfo.xml
 fi

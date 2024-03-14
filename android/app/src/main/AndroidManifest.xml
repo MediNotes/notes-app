@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.adilhanney.saber">
+    package="com.ciphermd.notes">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -128,7 +128,7 @@
 
        <provider
            android:name="com.superlist.super_native_extensions.DataProvider"
-           android:authorities="com.adilhanney.saber.SuperClipboardDataProvider"
+           android:authorities="com.ciphermd.notes.SuperClipboardDataProvider"
            android:exported="true"
            android:grantUriPermissions="true" >
        </provider>

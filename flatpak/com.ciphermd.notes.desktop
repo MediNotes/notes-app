@@ -6,8 +6,9 @@ Name=Saber
 Comment=The notes app built for handwriting.
 Categories=Office;WordProcessor;
 
-Icon=com.adilhanney.saber
+Icon=com.ciphermd.notes
 Exec=saber
 MimeType=application/sbn;application/sbn2;application/sba
 Terminal=false
 StartupWMClass=saber
+

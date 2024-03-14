@@ -43,7 +43,7 @@ android {
 ```xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.adilhanney.saber">
+    package="com.ciphermd.notes">
 
     <!-- Add this `tools:replace` attribute to the `application` tag -->
     <application

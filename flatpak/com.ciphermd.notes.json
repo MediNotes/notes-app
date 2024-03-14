@@ -1,5 +1,5 @@
 {
-	"app-id": "com.adilhanney.saber",
+	"app-id": "com.ciphermd.notes",
 	"runtime": "org.freedesktop.Platform",
 	"runtime-version": "22.08",
 	"sdk": "org.freedesktop.Sdk",

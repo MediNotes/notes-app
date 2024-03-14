@@ -19,7 +19,7 @@ void main() {
         reason: 'Dummy text found in Android changelog');
 
     final File flatpakMetadata =
-        File('flatpak/com.adilhanney.saber.metainfo.xml');
+        File('flatpak/com.ciphermd.notes.metainfo.xml');
     expect(flatpakMetadata.existsSync(), true);
     final String flatpakMetadataContents = await flatpakMetadata.readAsString();
     expect(flatpakMetadataContents.contains(dummyChangelog), false,
@@ -28,7 +28,7 @@ void main() {
 
   test('Check that metainfo <release> tags are in the right place', () async {
     final File flatpakMetadata =
-        File('flatpak/com.adilhanney.saber.metainfo.xml');
+        File('flatpak/com.ciphermd.notes.metainfo.xml');
     expect(flatpakMetadata.existsSync(), true);
     final String flatpakMetadataContents = await flatpakMetadata.readAsString();
 

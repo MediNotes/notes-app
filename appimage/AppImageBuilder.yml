@@ -3,9 +3,9 @@ version: 1
 AppDir:
   path: ./AppDir
   app_info:
-    id: com.adilhanney.saber
+    id: com.ciphermd.notes
     name: Saber
-    icon: com.adilhanney.saber
+    icon: com.ciphermd.notes
     version: latest
     exec: saber
     exec_args: $@

@@ -89,7 +89,7 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.adilhanney" "\0"
+            VALUE "CompanyName", "com.ciphermd" "\0"
             VALUE "FileDescription", "saber" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "saber" "\0"

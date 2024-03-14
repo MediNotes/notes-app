@@ -4,7 +4,7 @@
     https://www.freedesktop.org/software/appstream/metainfocreator/#/
 -->
 <component type="desktop-application">
-    <id>com.adilhanney.saber</id>
+    <id>com.ciphermd.notes</id>
 
     <name>Saber: Handwritten Notes</name>
     <summary>The notes app built for handwriting</summary>
@@ -191,7 +191,8 @@
             作为 Saber 的开发者，我非常高兴地向您介绍一款彻底改变您记笔记方式的应用程序。Saber 是一款终极手写笔记应用程序，旨在将您的笔记体验提升到新的高度！这款功能丰富的应用程序以尖端技术为动力，让您尽情享受手写的艺术，释放您的创造力。Saber 的界面直观、现代，可轻松记下笔记、绘制图表或精确注释 PDF。
         </p>
         <p xml:lang="zh-Hans-CN">
-            当我开始制作电子笔记时，我找不到任何符合我要求的私有开源应用程序，因此我最终不得不使用一个专有应用程序。我决定创建 Saber，让人们可以选择一款值得信赖的私有开源应用程序。Saber 是完全开源的，这意味着任何人都可以审核代码，以确保其安全性和私密性。Saber 会对您的数据进行加密，并可以同步到您选择的任何兼容服务器，让您完全掌控自己的数据。
+          当我开始制作电子笔记时，我找不到任何符合我要求的私有开源应用程序，因此我最终不得不使用一个专有应用程序。我决定创建 Saber，让人们可以选择一款值
+          得信赖的私有开源应用程序。Saber 是完全开源的，这意味着任何人都可以审核代码，以确保其安全性和私密性。Saber 会对您的数据进行加密，并可以同步到您选择的任何兼容服务器，让您完全掌控自己的数据。
         </p>
         <p xml:lang="zh-Hans-CN">
             您是否喜欢在平板电脑上做笔记，然后将其传输到电脑上？或者您更喜欢在笔记本电脑上输入笔记，然后在平板电脑上批注？无论您的工作流程是什么，Saber 都能为您提供多平台支持，让您随时随地在任何设备上访问您的笔记。Saber 支持 Android、iOS、Windows、macOS 和 Linux，您的笔记会在所有设备上自动同步。如果您处于离线状态，Saber 会在您重新上线时自动同步您的笔记。
@@ -210,7 +211,7 @@
         </p>
     </description>
 
-    <launchable type="desktop-id">com.adilhanney.saber.desktop</launchable>
+    <launchable type="desktop-id">com.ciphermd.notes.desktop</launchable>
 
     <content_rating type="oars-1.1" />
 
