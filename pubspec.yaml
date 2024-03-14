@@ -275,8 +275,8 @@ auto_screenshot:
     - Pixel_6_Pro_API_33
     - Nexus_10_API_33
   base_url:
-    android: https://saber.adil.hanney.org
-    ios: applinks://saber.adil.hanney.org
+    android: https://notes.ciphermd.com
+    ios: applinks://notes.ciphermd.com
   screenshot:
     - home/recent
     - edit?path=/Algebraic Structures 2 Week 1
