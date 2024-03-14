@@ -163,7 +163,7 @@ abstract class Prefs {
 
     pfp = PlainPref('pfp', null);
 
-    appTheme = PlainPref('appTheme', ThemeMode.system);
+    appTheme = PlainPref('appTheme', ThemeMode.light);
     platform = PlainPref('platform', defaultTargetPlatform);
     layoutSize = PlainPref('layoutSize', LayoutSize.auto);
     accentColor = PlainPref('accentColor', 0);
