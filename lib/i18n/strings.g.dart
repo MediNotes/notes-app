@@ -170,7 +170,7 @@ class _StringsHomeEn {
 	late final _StringsHomeTitlesEn titles = _StringsHomeTitlesEn._(_root);
 	late final _StringsHomeTooltipsEn tooltips = _StringsHomeTooltipsEn._(_root);
 	late final _StringsHomeCreateEn create = _StringsHomeCreateEn._(_root);
-	String get welcome => 'Welcome to Saber';
+	String get welcome => 'Welcome to CipherMD';
 	String get invalidFormat => 'The file you selected is not supported. Please select an sbn, sbn2, sba, or pdf file.';
 	String get noFiles => 'No files found';
 	String get createNewNote => 'Tap the + button to create a new note';
@@ -308,8 +308,8 @@ class _StringsHomeTabsEn {
 
 	// Translations
 	String get home => 'Home';
-	String get browse => 'Browse';
-	String get whiteboard => 'Whiteboard';
+	String get browse => 'Learn';
+	String get whiteboard => 'Create';
 	String get settings => 'Settings';
 }
 
@@ -321,8 +321,8 @@ class _StringsHomeTitlesEn {
 
 	// Translations
 	String get home => 'Recent notes';
-	String get browse => 'Browse';
-	String get whiteboard => 'Whiteboard';
+	String get browse => 'Learn';
+	String get whiteboard => 'Create';
 	String get settings => 'Settings';
 }
 
