@@ -57,14 +57,14 @@ abstract class HomeRoutes {
             cupertinoIcon: CupertinoIcons.pencil_outline,
           ),
         ),
-        _Route(
-          routePath: _homeFunction({'subpage': HomePage.settingsSubpage}),
-          label: t.home.tabs.settings,
-          icon: const AdaptiveIcon(
-            icon: Icons.settings,
-            cupertinoIcon: CupertinoIcons.settings_solid,
-          ),
-        ),
+        // _Route(
+        //   routePath: _homeFunction({'subpage': HomePage.settingsSubpage}),
+        //   label: t.home.tabs.settings,
+        //   icon: const AdaptiveIcon(
+        //     icon: Icons.settings,
+        //     cupertinoIcon: CupertinoIcons.settings_solid,
+        //   ),
+        // ),
       ];
 
   static String getRoute(int index) {
