@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:saber/data/tools/pen.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/data/tools/pen.dart';
+import 'package:notes/i18n/strings.g.dart';
 
 class SizePicker extends StatefulWidget {
   const SizePicker({

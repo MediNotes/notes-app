@@ -6,9 +6,9 @@ import 'package:crypto/crypto.dart';
 import 'package:encrypt/encrypt.dart';
 import 'package:nextcloud/nextcloud.dart';
 import 'package:nextcloud/provisioning_api.dart';
-import 'package:saber/components/nextcloud/login_group.dart';
-import 'package:saber/data/file_manager/file_manager.dart';
-import 'package:saber/data/prefs.dart';
+import 'package:notes/components/nextcloud/login_group.dart';
+import 'package:notes/data/file_manager/file_manager.dart';
+import 'package:notes/data/prefs.dart';
 
 extension NextcloudClientExtension on NextcloudClient {
   static final Uri defaultNextcloudUri =

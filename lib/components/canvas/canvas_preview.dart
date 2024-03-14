@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:saber/components/canvas/inner_canvas.dart';
-import 'package:saber/data/editor/editor_core_info.dart';
-import 'package:saber/data/editor/page.dart';
-import 'package:saber/data/prefs.dart';
+import 'package:notes/components/canvas/inner_canvas.dart';
+import 'package:notes/data/editor/editor_core_info.dart';
+import 'package:notes/data/editor/page.dart';
+import 'package:notes/data/prefs.dart';
 
 typedef _CacheItem = (EditorCoreInfo coreInfo, double pageHeight);
 

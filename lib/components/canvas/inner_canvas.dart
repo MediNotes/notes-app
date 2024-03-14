@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_quill/flutter_quill.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:one_dollar_unistroke_recognizer/one_dollar_unistroke_recognizer.dart';
-import 'package:saber/components/canvas/_canvas_background_painter.dart';
-import 'package:saber/components/canvas/_canvas_painter.dart';
-import 'package:saber/components/canvas/_stroke.dart';
-import 'package:saber/components/canvas/canvas_image.dart';
-import 'package:saber/components/canvas/image/editor_image.dart';
-import 'package:saber/data/editor/editor_core_info.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/data/tools/select.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/components/canvas/_canvas_background_painter.dart';
+import 'package:notes/components/canvas/_canvas_painter.dart';
+import 'package:notes/components/canvas/_stroke.dart';
+import 'package:notes/components/canvas/canvas_image.dart';
+import 'package:notes/components/canvas/image/editor_image.dart';
+import 'package:notes/data/editor/editor_core_info.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/data/tools/select.dart';
+import 'package:notes/i18n/strings.g.dart';
 
 class InnerCanvas extends StatefulWidget {
   const InnerCanvas({

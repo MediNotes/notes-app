@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:saber/components/files/file_tree.dart';
-import 'package:saber/components/theming/adaptive_icon.dart';
+import 'package:notes/components/files/file_tree.dart';
+import 'package:notes/components/theming/adaptive_icon.dart';
 
 class VerticalNavbar extends StatefulWidget {
   const VerticalNavbar({

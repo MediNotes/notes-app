@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:saber/components/canvas/_canvas_background_painter.dart';
+import 'package:notes/components/canvas/_canvas_background_painter.dart';
 
 void main() {
   group('Test canvas background patterns:', () {

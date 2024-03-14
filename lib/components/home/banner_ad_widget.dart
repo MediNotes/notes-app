@@ -6,7 +6,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:logging/logging.dart';
-import 'package:saber/data/prefs.dart';
+import 'package:notes/data/prefs.dart';
 
 export 'package:google_mobile_ads/google_mobile_ads.dart' show AdSize;
 

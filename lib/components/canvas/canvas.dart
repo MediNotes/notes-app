@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:one_dollar_unistroke_recognizer/one_dollar_unistroke_recognizer.dart';
 import 'package:onyxsdk_pen/onyxsdk_pen_area.dart';
-import 'package:saber/components/canvas/_stroke.dart';
-import 'package:saber/components/canvas/image/editor_image.dart';
-import 'package:saber/components/canvas/inner_canvas.dart';
-import 'package:saber/data/editor/editor_core_info.dart';
-import 'package:saber/data/editor/page.dart';
-import 'package:saber/data/tools/select.dart';
+import 'package:notes/components/canvas/_stroke.dart';
+import 'package:notes/components/canvas/image/editor_image.dart';
+import 'package:notes/components/canvas/inner_canvas.dart';
+import 'package:notes/data/editor/editor_core_info.dart';
+import 'package:notes/data/editor/page.dart';
+import 'package:notes/data/tools/select.dart';
 
 class Canvas extends StatelessWidget {
   const Canvas({

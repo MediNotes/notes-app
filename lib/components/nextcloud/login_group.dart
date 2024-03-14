@@ -3,16 +3,16 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:regexed_validator/regexed_validator.dart';
-import 'package:saber/components/nextcloud/spinning_loading_icon.dart';
-import 'package:saber/components/settings/app_info.dart';
-import 'package:saber/components/theming/adaptive_button.dart';
-import 'package:saber/components/theming/adaptive_icon.dart';
-import 'package:saber/components/theming/adaptive_text_field.dart';
-import 'package:saber/data/nextcloud/file_syncer.dart';
-import 'package:saber/data/nextcloud/nextcloud_client_extension.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/i18n/strings.g.dart';
-import 'package:saber/pages/user/login.dart';
+import 'package:notes/components/nextcloud/spinning_loading_icon.dart';
+import 'package:notes/components/settings/app_info.dart';
+import 'package:notes/components/theming/adaptive_button.dart';
+import 'package:notes/components/theming/adaptive_icon.dart';
+import 'package:notes/components/theming/adaptive_text_field.dart';
+import 'package:notes/data/nextcloud/file_syncer.dart';
+import 'package:notes/data/nextcloud/nextcloud_client_extension.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/i18n/strings.g.dart';
+import 'package:notes/pages/user/login.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LoginInputGroup extends StatefulWidget {

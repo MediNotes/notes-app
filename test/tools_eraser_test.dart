@@ -3,9 +3,9 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:perfect_freehand/perfect_freehand.dart';
-import 'package:saber/components/canvas/_stroke.dart';
-import 'package:saber/data/editor/page.dart';
-import 'package:saber/data/tools/eraser.dart';
+import 'package:notes/components/canvas/_stroke.dart';
+import 'package:notes/data/editor/page.dart';
+import 'package:notes/data/tools/eraser.dart';
 
 const String _penType = 'testing pen';
 final StrokeOptions _options = StrokeOptions(

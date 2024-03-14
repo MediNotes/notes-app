@@ -1,8 +1,8 @@
 import 'package:encrypt/encrypt.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:saber/data/flavor_config.dart';
-import 'package:saber/data/nextcloud/nextcloud_client_extension.dart';
-import 'package:saber/data/prefs.dart';
+import 'package:notes/data/flavor_config.dart';
+import 'package:notes/data/nextcloud/nextcloud_client_extension.dart';
+import 'package:notes/data/prefs.dart';
 
 import 'utils/test_random.dart';
 

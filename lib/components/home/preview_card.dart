@@ -3,15 +3,15 @@ import 'dart:async';
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:saber/components/canvas/canvas_preview.dart';
-import 'package:saber/components/canvas/invert_shader.dart';
-import 'package:saber/components/canvas/shader_image.dart';
-import 'package:saber/components/home/uploading_indicator.dart';
-import 'package:saber/components/navbar/responsive_navbar.dart';
-import 'package:saber/data/file_manager/file_manager.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/data/routes.dart';
-import 'package:saber/pages/editor/editor.dart';
+import 'package:notes/components/canvas/canvas_preview.dart';
+import 'package:notes/components/canvas/invert_shader.dart';
+import 'package:notes/components/canvas/shader_image.dart';
+import 'package:notes/components/home/uploading_indicator.dart';
+import 'package:notes/components/navbar/responsive_navbar.dart';
+import 'package:notes/data/file_manager/file_manager.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/data/routes.dart';
+import 'package:notes/pages/editor/editor.dart';
 
 class PreviewCard extends StatefulWidget {
   PreviewCard({

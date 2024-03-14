@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import 'package:path_to_regexp/path_to_regexp.dart';
-import 'package:saber/components/canvas/save_indicator.dart';
-import 'package:saber/components/navbar/horizontal_navbar.dart';
-import 'package:saber/components/navbar/vertical_navbar.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/data/routes.dart';
-import 'package:saber/pages/home/home.dart';
-import 'package:saber/pages/home/whiteboard.dart';
+import 'package:notes/components/canvas/save_indicator.dart';
+import 'package:notes/components/navbar/horizontal_navbar.dart';
+import 'package:notes/components/navbar/vertical_navbar.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/data/routes.dart';
+import 'package:notes/pages/home/home.dart';
+import 'package:notes/pages/home/whiteboard.dart';
 
 class ResponsiveNavbar extends StatefulWidget {
   const ResponsiveNavbar({

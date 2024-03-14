@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/painting.dart';
-import 'package:saber/components/canvas/image/editor_image.dart';
+import 'package:notes/components/canvas/image/editor_image.dart';
 
 /// A cache for assets that are loaded from disk.
 ///

@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:saber/components/canvas/canvas_gesture_detector.dart';
+import 'package:notes/components/canvas/canvas_gesture_detector.dart';
 
 void main() {
   const containerBounds = BoxConstraints(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/pages/home/settings.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/pages/home/settings.dart';
 
 class SettingsSwitch extends StatefulWidget {
   const SettingsSwitch({

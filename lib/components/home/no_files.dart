@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/i18n/strings.g.dart';
 
 class NoFiles extends StatelessWidget {
   const NoFiles({super.key});

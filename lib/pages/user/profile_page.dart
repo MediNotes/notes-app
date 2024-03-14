@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:saber/components/misc/faq.dart';
-import 'package:saber/components/theming/sliver_width_box.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/components/misc/faq.dart';
+import 'package:notes/components/theming/sliver_width_box.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/i18n/strings.g.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ProfilePage extends StatelessWidget {

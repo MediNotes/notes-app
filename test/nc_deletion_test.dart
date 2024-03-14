@@ -4,11 +4,11 @@ import 'dart:io';
 import 'package:encrypt/encrypt.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:nextcloud/nextcloud.dart';
-import 'package:saber/data/file_manager/file_manager.dart';
-import 'package:saber/data/flavor_config.dart';
-import 'package:saber/data/nextcloud/file_syncer.dart';
-import 'package:saber/data/nextcloud/nextcloud_client_extension.dart';
-import 'package:saber/data/prefs.dart';
+import 'package:notes/data/file_manager/file_manager.dart';
+import 'package:notes/data/flavor_config.dart';
+import 'package:notes/data/nextcloud/file_syncer.dart';
+import 'package:notes/data/nextcloud/nextcloud_client_extension.dart';
+import 'package:notes/data/prefs.dart';
 
 import 'utils/test_mock_channel_handlers.dart';
 import 'utils/test_random.dart';

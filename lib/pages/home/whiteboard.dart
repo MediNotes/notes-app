@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:saber/components/canvas/save_indicator.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/i18n/strings.g.dart';
-import 'package:saber/pages/editor/editor.dart';
+import 'package:notes/components/canvas/save_indicator.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/i18n/strings.g.dart';
+import 'package:notes/pages/editor/editor.dart';
 
 class Whiteboard extends StatelessWidget {
   const Whiteboard({super.key});

@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:saber/components/canvas/image/editor_image.dart';
-import 'package:saber/data/editor/editor_core_info.dart';
-import 'package:saber/data/editor/page.dart';
-import 'package:saber/data/flavor_config.dart';
-import 'package:saber/data/prefs.dart';
+import 'package:notes/components/canvas/image/editor_image.dart';
+import 'package:notes/data/editor/editor_core_info.dart';
+import 'package:notes/data/editor/page.dart';
+import 'package:notes/data/flavor_config.dart';
+import 'package:notes/data/prefs.dart';
 
 /// This test is to diagnose an issue with sending an `EditorCoreInfo` object
 /// from the isolate to the main thread:

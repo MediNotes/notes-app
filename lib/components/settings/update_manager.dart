@@ -8,14 +8,14 @@ import 'package:http/http.dart' as http;
 import 'package:logging/logging.dart';
 import 'package:open_filex/open_filex.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:saber/components/nextcloud/spinning_loading_icon.dart';
-import 'package:saber/components/settings/app_info.dart';
-import 'package:saber/components/theming/adaptive_alert_dialog.dart';
-import 'package:saber/data/flavor_config.dart';
-import 'package:saber/data/locales.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/data/version.dart' as version;
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/components/nextcloud/spinning_loading_icon.dart';
+import 'package:notes/components/settings/app_info.dart';
+import 'package:notes/components/theming/adaptive_alert_dialog.dart';
+import 'package:notes/data/flavor_config.dart';
+import 'package:notes/data/locales.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/data/version.dart' as version;
+import 'package:notes/i18n/strings.g.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 abstract class UpdateManager {

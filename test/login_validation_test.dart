@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:saber/components/nextcloud/login_group.dart';
-import 'package:saber/data/nextcloud/nextcloud_client_extension.dart';
+import 'package:notes/components/nextcloud/login_group.dart';
+import 'package:notes/data/nextcloud/nextcloud_client_extension.dart';
 
 void main() => group('Test login validation:', () {
       group('Email:', () {

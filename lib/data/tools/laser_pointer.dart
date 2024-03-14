@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:perfect_freehand/perfect_freehand.dart';
-import 'package:saber/components/canvas/_stroke.dart';
-import 'package:saber/data/editor/page.dart';
+import 'package:notes/components/canvas/_stroke.dart';
+import 'package:notes/data/editor/page.dart';
 
-import 'package:saber/data/tools/_tool.dart';
-import 'package:saber/data/tools/pen.dart';
+import 'package:notes/data/tools/_tool.dart';
+import 'package:notes/data/tools/pen.dart';
 
 class LaserPointer extends Tool {
   LaserPointer._();

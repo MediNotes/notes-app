@@ -3,9 +3,9 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:saber/components/settings/update_manager.dart';
-import 'package:saber/data/locales.dart';
-import 'package:saber/data/version.dart';
+import 'package:notes/components/settings/update_manager.dart';
+import 'package:notes/data/locales.dart';
+import 'package:notes/data/version.dart';
 
 const String dummyChangelog = 'Release notes will be added here.';
 

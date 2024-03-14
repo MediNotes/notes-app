@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:saber/components/home/preview_card.dart';
-import 'package:saber/data/extensions/change_notifier_extensions.dart';
+import 'package:notes/components/home/preview_card.dart';
+import 'package:notes/data/extensions/change_notifier_extensions.dart';
 
 class MasonryFiles extends StatefulWidget {
   const MasonryFiles({

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:saber/data/prefs.dart';
+import 'package:notes/data/prefs.dart';
 
 abstract class Tool {
   @protected

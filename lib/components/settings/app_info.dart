@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:saber/data/flavor_config.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/data/version.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/data/flavor_config.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/data/version.dart';
+import 'package:notes/i18n/strings.g.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AppInfo extends StatelessWidget {

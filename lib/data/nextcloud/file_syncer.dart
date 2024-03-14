@@ -7,10 +7,10 @@ import 'package:flutter/foundation.dart';
 import 'package:logging/logging.dart';
 import 'package:mutex/mutex.dart';
 import 'package:nextcloud/nextcloud.dart';
-import 'package:saber/data/file_manager/file_manager.dart';
-import 'package:saber/data/nextcloud/nextcloud_client_extension.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/pages/editor/editor.dart';
+import 'package:notes/data/file_manager/file_manager.dart';
+import 'package:notes/data/nextcloud/nextcloud_client_extension.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/pages/editor/editor.dart';
 import 'package:worker_manager/worker_manager.dart';
 
 abstract class FileSyncer {

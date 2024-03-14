@@ -7,9 +7,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:saber/components/theming/yaru_builder.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/components/theming/yaru_builder.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/i18n/strings.g.dart';
 import 'package:window_manager/window_manager.dart';
 
 class DynamicMaterialApp extends StatefulWidget {

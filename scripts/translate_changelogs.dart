@@ -5,8 +5,8 @@
 import 'dart:io';
 import 'dart:math';
 
-import 'package:saber/data/locales.dart';
-import 'package:saber/data/version.dart';
+import 'package:notes/data/locales.dart';
+import 'package:notes/data/version.dart';
 import 'package:simplytranslate/simplytranslate.dart';
 import 'package:simplytranslate/src/langs/language.dart';
 

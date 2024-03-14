@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:saber/data/routes.dart';
+import 'package:notes/data/routes.dart';
 
 /// Replaces the back button as the
 /// [AppBar.leading] widget in the [AppBar]

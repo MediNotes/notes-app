@@ -2,10 +2,10 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 import 'package:go_router/go_router.dart';
-import 'package:saber/data/file_manager/file_manager.dart';
-import 'package:saber/data/routes.dart';
-import 'package:saber/i18n/strings.g.dart';
-import 'package:saber/pages/editor/editor.dart';
+import 'package:notes/data/file_manager/file_manager.dart';
+import 'package:notes/data/routes.dart';
+import 'package:notes/i18n/strings.g.dart';
+import 'package:notes/pages/editor/editor.dart';
 
 class NewNoteButton extends StatefulWidget {
   const NewNoteButton({

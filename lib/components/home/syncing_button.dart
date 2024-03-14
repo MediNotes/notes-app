@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:saber/components/theming/adaptive_icon.dart';
-import 'package:saber/data/nextcloud/file_syncer.dart';
-import 'package:saber/data/prefs.dart';
+import 'package:notes/components/theming/adaptive_icon.dart';
+import 'package:notes/data/nextcloud/file_syncer.dart';
+import 'package:notes/data/prefs.dart';
 
 class SyncingButton extends StatefulWidget {
   const SyncingButton({super.key});

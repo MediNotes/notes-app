@@ -9,10 +9,10 @@ import 'package:image_save/image_save.dart';
 import 'package:intl/intl.dart' show DateFormat;
 import 'package:logging/logging.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:saber/data/nextcloud/file_syncer.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/i18n/strings.g.dart';
-import 'package:saber/pages/editor/editor.dart';
+import 'package:notes/data/nextcloud/file_syncer.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/i18n/strings.g.dart';
+import 'package:notes/pages/editor/editor.dart';
 import 'package:share_plus/share_plus.dart';
 
 /// A collection of cross-platform utility functions for working with a virtual file system.

@@ -1,14 +1,14 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:saber/components/canvas/_canvas_background_painter.dart';
-import 'package:saber/components/canvas/canvas_background_preview.dart';
-import 'package:saber/components/canvas/canvas_image_dialog.dart';
-import 'package:saber/components/canvas/image/editor_image.dart';
-import 'package:saber/components/canvas/inner_canvas.dart';
-import 'package:saber/data/editor/editor_core_info.dart';
-import 'package:saber/data/editor/page.dart';
-import 'package:saber/i18n/extensions/box_fit_localized.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/components/canvas/_canvas_background_painter.dart';
+import 'package:notes/components/canvas/canvas_background_preview.dart';
+import 'package:notes/components/canvas/canvas_image_dialog.dart';
+import 'package:notes/components/canvas/image/editor_image.dart';
+import 'package:notes/components/canvas/inner_canvas.dart';
+import 'package:notes/data/editor/editor_core_info.dart';
+import 'package:notes/data/editor/page.dart';
+import 'package:notes/i18n/extensions/box_fit_localized.dart';
+import 'package:notes/i18n/strings.g.dart';
 
 class EditorBottomSheet extends StatefulWidget {
   const EditorBottomSheet({

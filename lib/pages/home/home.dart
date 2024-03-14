@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:saber/components/home/banner_ad_widget.dart';
-import 'package:saber/components/navbar/responsive_navbar.dart';
-import 'package:saber/components/settings/update_manager.dart';
-import 'package:saber/components/theming/dynamic_material_app.dart';
-import 'package:saber/pages/home/browse.dart';
-import 'package:saber/pages/home/recent_notes.dart';
-import 'package:saber/pages/home/settings.dart';
-import 'package:saber/pages/home/whiteboard.dart';
+import 'package:notes/components/home/banner_ad_widget.dart';
+import 'package:notes/components/navbar/responsive_navbar.dart';
+import 'package:notes/components/settings/update_manager.dart';
+import 'package:notes/components/theming/dynamic_material_app.dart';
+import 'package:notes/pages/home/browse.dart';
+import 'package:notes/pages/home/recent_notes.dart';
+import 'package:notes/pages/home/settings.dart';
+import 'package:notes/pages/home/whiteboard.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({

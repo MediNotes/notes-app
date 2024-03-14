@@ -2,12 +2,12 @@ import 'dart:ui';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:perfect_freehand/perfect_freehand.dart';
-import 'package:saber/components/canvas/_asset_cache.dart';
-import 'package:saber/components/canvas/_stroke.dart';
-import 'package:saber/components/canvas/image/editor_image.dart';
-import 'package:saber/components/canvas/invert_shader.dart';
-import 'package:saber/data/editor/page.dart';
-import 'package:saber/data/tools/select.dart';
+import 'package:notes/components/canvas/_asset_cache.dart';
+import 'package:notes/components/canvas/_stroke.dart';
+import 'package:notes/components/canvas/image/editor_image.dart';
+import 'package:notes/components/canvas/invert_shader.dart';
+import 'package:notes/data/editor/page.dart';
+import 'package:notes/data/tools/select.dart';
 
 void main() {
   test('Test that the select tool selects the right strokes', () async {

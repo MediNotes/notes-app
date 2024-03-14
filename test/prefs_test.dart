@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:perfect_freehand/perfect_freehand.dart';
-import 'package:saber/data/prefs.dart';
+import 'package:notes/data/prefs.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'utils/test_mock_channel_handlers.dart';

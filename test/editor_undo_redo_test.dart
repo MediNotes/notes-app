@@ -3,12 +3,12 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
-import 'package:saber/components/theming/dynamic_material_app.dart';
-import 'package:saber/data/file_manager/file_manager.dart';
-import 'package:saber/data/flavor_config.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/i18n/strings.g.dart';
-import 'package:saber/pages/editor/editor.dart';
+import 'package:notes/components/theming/dynamic_material_app.dart';
+import 'package:notes/data/file_manager/file_manager.dart';
+import 'package:notes/data/flavor_config.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/i18n/strings.g.dart';
+import 'package:notes/pages/editor/editor.dart';
 
 import 'utils/test_mock_channel_handlers.dart';
 

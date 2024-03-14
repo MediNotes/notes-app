@@ -5,13 +5,13 @@ import 'package:go_router/go_router.dart';
 import 'package:logging/logging.dart';
 import 'package:nextcloud/core.dart';
 import 'package:nextcloud/nextcloud.dart';
-import 'package:saber/components/misc/faq.dart';
-import 'package:saber/components/nextcloud/login_group.dart';
-import 'package:saber/components/theming/sliver_width_box.dart';
-import 'package:saber/data/nextcloud/nc_http_overrides.dart';
-import 'package:saber/data/nextcloud/nextcloud_client_extension.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/components/misc/faq.dart';
+import 'package:notes/components/nextcloud/login_group.dart';
+import 'package:notes/components/theming/sliver_width_box.dart';
+import 'package:notes/data/nextcloud/nc_http_overrides.dart';
+import 'package:notes/data/nextcloud/nextcloud_client_extension.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/i18n/strings.g.dart';
 
 class NcLoginPage extends StatefulWidget {
   const NcLoginPage({super.key});

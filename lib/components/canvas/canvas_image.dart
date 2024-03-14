@@ -3,13 +3,13 @@ import 'dart:ui' as ui;
 
 import 'package:defer_pointer/defer_pointer.dart';
 import 'package:flutter/material.dart';
-import 'package:saber/components/canvas/canvas_image_dialog.dart';
-import 'package:saber/components/canvas/image/editor_image.dart';
-import 'package:saber/components/canvas/invert_shader.dart';
-import 'package:saber/components/theming/adaptive_alert_dialog.dart';
-import 'package:saber/data/extensions/change_notifier_extensions.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/components/canvas/canvas_image_dialog.dart';
+import 'package:notes/components/canvas/image/editor_image.dart';
+import 'package:notes/components/canvas/invert_shader.dart';
+import 'package:notes/components/theming/adaptive_alert_dialog.dart';
+import 'package:notes/data/extensions/change_notifier_extensions.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/i18n/strings.g.dart';
 
 class CanvasImage extends StatefulWidget {
   CanvasImage({

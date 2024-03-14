@@ -5,13 +5,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
-import 'package:saber/components/canvas/_circle_stroke.dart';
-import 'package:saber/components/canvas/_rectangle_stroke.dart';
-import 'package:saber/components/canvas/_stroke.dart';
-import 'package:saber/components/canvas/inner_canvas.dart';
-import 'package:saber/data/editor/editor_core_info.dart';
-import 'package:saber/data/tools/highlighter.dart';
-import 'package:saber/data/tools/pencil.dart';
+import 'package:notes/components/canvas/_circle_stroke.dart';
+import 'package:notes/components/canvas/_rectangle_stroke.dart';
+import 'package:notes/components/canvas/_stroke.dart';
+import 'package:notes/components/canvas/inner_canvas.dart';
+import 'package:notes/data/editor/editor_core_info.dart';
+import 'package:notes/data/tools/highlighter.dart';
+import 'package:notes/data/tools/pencil.dart';
 import 'package:screenshot/screenshot.dart';
 
 abstract class EditorExporter {

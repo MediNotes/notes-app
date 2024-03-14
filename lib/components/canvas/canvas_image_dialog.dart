@@ -3,11 +3,11 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart' show CupertinoIcons;
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:saber/components/canvas/image/editor_image.dart';
-import 'package:saber/components/theming/adaptive_icon.dart';
-import 'package:saber/data/file_manager/file_manager.dart';
-import 'package:saber/data/prefs.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/components/canvas/image/editor_image.dart';
+import 'package:notes/components/theming/adaptive_icon.dart';
+import 'package:notes/data/file_manager/file_manager.dart';
+import 'package:notes/data/prefs.dart';
+import 'package:notes/i18n/strings.g.dart';
 
 class CanvasImageDialog extends StatefulWidget {
   const CanvasImageDialog({

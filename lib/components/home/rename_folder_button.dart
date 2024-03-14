@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:saber/components/theming/adaptive_alert_dialog.dart';
-import 'package:saber/components/theming/adaptive_text_field.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/components/theming/adaptive_alert_dialog.dart';
+import 'package:notes/components/theming/adaptive_text_field.dart';
+import 'package:notes/i18n/strings.g.dart';
 
 class RenameFolderButton extends StatelessWidget {
   const RenameFolderButton({

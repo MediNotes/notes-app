@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:saber/data/flavor_config.dart';
-import 'package:saber/main_common.dart' as common;
+import 'package:notes/data/flavor_config.dart';
+import 'package:notes/main_common.dart' as common;
 
 Future<void> main() async {
   /// To set the flavor config e.g. for the Play Store, use:

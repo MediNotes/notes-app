@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:saber/components/canvas/hud/canvas_gesture_lock_btn.dart';
-import 'package:saber/components/canvas/hud/canvas_zoom_indicator.dart';
-import 'package:saber/i18n/strings.g.dart';
+import 'package:notes/components/canvas/hud/canvas_gesture_lock_btn.dart';
+import 'package:notes/components/canvas/hud/canvas_zoom_indicator.dart';
+import 'package:notes/i18n/strings.g.dart';
 
 class CanvasHud extends StatefulWidget {
   const CanvasHud({
